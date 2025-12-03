@@ -1,0 +1,18 @@
+Na Figura 1, os pontos se alinham quase perfeitamente em uma linha reta, 
+e nosso modelo de linha reta parece ser uma escolha razoável. 
+A regressão linear é apropriada aqui. O modelo se ajusta bem aos dados.
+
+Na Figura 2, os pontos seriam melhor ajustados por uma curva suave, 
+como um modelo quadrático (ou seja, y = ax² + mx + c). 
+Apesar da correlação ser semelhante ao dataset_1, a regressão linear não é adequada.
+
+Na Figura 3, vemos um ponto discrepante, 
+cuja remoção do conjunto de dados resultaria em um ajuste muito melhor.
+O outlier distorce a regressão e a correlação, dando a falsa impressão de uma boa relação linear.
+
+
+Na Figura 4, vemos que as variáveis ​​de resultado são completamente 
+independentes da variável explicativa, e uma regressão só é possível 
+devido a um único ponto, neste caso, um ponto de "alta influência", 
+ou seja, este ponto exerce uma grande influência (ou, neste caso, total) na inclinação do ajuste.
+A regressão linear é fortemente influenciada pelo outlier, tornando o modelo inútil.
